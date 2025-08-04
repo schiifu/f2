@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>theArchive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bg-dark text-white p-3 text-center">
+    <h1>theArchive</h1>
+    <nav>
+      <a class="text-white m-2" href="index.html">Home</a>
+      <a class="text-white m-2" href="produto.html">Catálogo</a>
+      <a class="text-white m-2" href="serviço.html">Serviços</a>
+      <a class="text-white m-2" href="registro.html">Registro</a>
+    </nav>
+</header>
+
+  <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://static.versatilhv.com.br/produto/20211020112213_500999500_D.png" class="d-block w-100" alt="Vergonha; dir. Ingmar Bergman">
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.versatilhv.com.br/produto/20210728232154_7271992729_D.png" class="d-block w-100" alt="Copacabana Mon Amour; dir. Rogério Sganzerla">
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.versatilhv.com.br/produto/20210727114558_7092992908_D.png" class="d-block w-100" alt="A Criada; dir. Park Chan-wook">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <main class="container mt-4">
+    <h2>Bem-vindo a theArchive</h2>
+    <p>Loja web com vendas de DVDs.</p>
+    <p id="hora-atual" class="text-muted"></p>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2025 theArchive | theAArchive@gmail.com.br</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
